@@ -1,0 +1,9 @@
+#!/bin/sh
+# Start the Discworld Noir build of ScummVM from this folder.
+# It keeps its own settings and saves, apart from any other ScummVM.
+HERE=$(cd "$(dirname "$0")" && pwd)
+CONFIG_DIR=${XDG_CONFIG_HOME:-$HOME/.config}/noir-scummvm
+SAVE_DIR=${XDG_DATA_HOME:-$HOME/.local/share}/noir-scummvm/saves
+mkdir -p "$CONFIG_DIR" "$SAVE_DIR"
+export APPDIR="$HERE"
+exec "$HERE/usr/bin/scummvm" --config="$CONFIG_DIR/scummvm.ini" --savepath="$SAVE_DIR" "$@"

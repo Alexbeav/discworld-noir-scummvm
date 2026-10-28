@@ -1,0 +1,7 @@
+# Game data and build output never go in this repository.
+*.iso
+*.scn
+*.smp
+*.bmv
+*.tar.gz
+build/
