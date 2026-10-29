@@ -18,7 +18,7 @@ All taken from this build.
 
 | | |
 |---|---|
-| ![Lewton in the rain outside his office](docs/images/street.png) | ![The docks at night](docs/images/wharf.png) |
+| ![Lewton on a rainy street](docs/images/street.png) | ![The docks at night](docs/images/wharf.png) |
 | ![Lewton's notebook](docs/images/notebook.png) | ![The in-game menu](docs/images/menu.png) |
 
 ## What you need
