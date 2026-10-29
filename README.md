@@ -1,5 +1,7 @@
 # Discworld Noir in ScummVM
 
+<p align="center"><img src="docs/images/title.png" alt="Discworld Noir title screen running in this build" width="640"></p>
+
 A fork of ScummVM's Tinsel engine that makes **Discworld Noir** (English, Windows, 3 CDs) playable from the title screen to the ending.
 
 Upstream ScummVM detects Discworld Noir but marks it unstable. This fork adds the 3D actor movement and corrects the notebook, conversations, movie audio and speech, music fades, lighting and saves (58 engine files). It is a patch on ScummVM, not a separate program, and it reads your own copy of the game. No game data is included.
@@ -8,7 +10,16 @@ Upstream ScummVM detects Discworld Noir but marks it unstable. This fork adds th
 
 - Two automated playthroughs reached the ending with normal mouse input.
 - A human playthrough is under way. Bugs found so far are fixed; see [Known issues](#known-issues).
-- Tested on Windows. Linux builds: see [Releases](../../releases).
+- Tested on Windows, and on Linux on a Steam Deck (SteamOS) and on Arch. Linux builds: see [Releases](../../releases).
+
+## Screenshots
+
+All taken from this build.
+
+| | |
+|---|---|
+| ![Lewton in the rain outside his office](docs/images/street.png) | ![The docks at night](docs/images/wharf.png) |
+| ![Lewton's notebook](docs/images/notebook.png) | ![The in-game menu](docs/images/menu.png) |
 
 ## What you need
 
